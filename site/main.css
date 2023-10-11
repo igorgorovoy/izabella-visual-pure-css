@@ -35,7 +35,7 @@ html *:before, body *:before, html *:after, body *:after {
 .hair-1::after {
   width: 35vmin;
   height: 56vmin;
-  background: #0e3a6b;
+  background: #36b215;
   top: 13.5vmin;
   left: -2.9vmin;
   transform: rotate(-13deg) skewX(2deg);

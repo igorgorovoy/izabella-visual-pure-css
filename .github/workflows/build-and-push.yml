@@ -18,8 +18,8 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -f Dockerfile.cloud -t igogo/devops-learning-warsaw:v0.0.1 .
+        docker build -f Dockerfile.cloud -t igogo/devops-learning-warsaw:v0.0.2 .
         docker images 
 
     - name: Push Docker image
-      run: docker push igogo/devops-learning-warsaw:v0.0.1
+      run: docker push igogo/devops-learning-warsaw:v0.0.2
