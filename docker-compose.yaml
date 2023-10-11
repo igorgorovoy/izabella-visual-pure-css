@@ -1,0 +1,13 @@
+version: '3.8'
+
+services: 
+      
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile.cloud
+    image: demo-warsaw-app
+    ports:
+      - 6077:6077
+    stdin_open: true
+    tty: true
