@@ -22,4 +22,4 @@ jobs:
         docker images 
 
     - name: Push Docker image
-      run: docker push yigogo/devops-learning-warsaw:v0.0.1
+      run: docker push igogo/devops-learning-warsaw:v0.0.1
