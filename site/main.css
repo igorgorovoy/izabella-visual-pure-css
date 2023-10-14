@@ -250,7 +250,7 @@ html *:before, body *:before, html *:after, body *:after {
 .face-7::before {
   width: 1.5vmin;
   height: 0.5vmin;
-  background: #feead2;
+  background: #000;
   top: -10vmin;
   left: 3.35vmin;
 }
